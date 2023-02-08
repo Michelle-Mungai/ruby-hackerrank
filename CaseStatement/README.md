@@ -1,20 +1,16 @@
 ## BDD
-1. Use a case statement to loop through
-2. When the condition is met the loop should output for that condition.
-3. If none of the conditions are met then an else statement gets output instead.
+Check the object if it meets the conditions for the loop. If it meets output the statement if not then the else statement
 
 ## PSEUDOCODE
 START
-1. Define a method with a parameter
-2. Use the parameter in the case loop statement
-3. Declare the conditions and the outputs for each condition
-4. Declare an else output if none of the conditions are met
-
+1. Enter a condition
+2. Loop through to see if the condition meets any of the cases
+3. Check for the outcome
+4. If outcome is part of the block output the statement if not output the else statement
 STOP
 
 ## TEST CASES
 # INPUTS
-10
 Hacker
 Submission
 TestCase
@@ -25,7 +21,6 @@ It's a Hacker!
 It's a Submission!
 It's a TestCase!
 It's a Submission!
-It's a Hacker!
 
 ## SOLUTION
-Found in the case.rb file 
+Found in the directory CaseStatement/case.rb
